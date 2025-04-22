@@ -13,8 +13,6 @@ public class ConstructorTest {
 
     private final DriverFactory factory = new DriverFactory();
 
-    public User user;
-
     @Before
     public void setUp() throws Exception {
         factory.initDriver();
